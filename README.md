@@ -41,9 +41,11 @@ ng add @angular/material
 
 # Material
 https://material.angular.io/components/icon/examples
+
 https://fonts.google.com/icons?icon.set=Material+Icons
 
 # Inspiration 
 
 https://www.rammaheshwari.com/project-1
+
 https://www.hostinger.com/tutorials/web-developer-portfolio
