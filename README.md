@@ -26,7 +26,24 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-## For me
+# For me
 ng deploy --base-href=https://NotAUserName0.github.io/Portafolio/
 
 to update Page
+
+# Libraries
+
+ng add @angular/material
+
+ npm install bootstrap@5.2.3
+"node_modules/bootstrap/dist/css/bootstrap.css"
+"node_modules/bootstrap/dist/js/bootstrap.min.js"
+
+# Material
+https://material.angular.io/components/icon/examples
+https://fonts.google.com/icons?icon.set=Material+Icons
+
+# Inspiration 
+
+https://www.rammaheshwari.com/project-1
+https://www.hostinger.com/tutorials/web-developer-portfolio
