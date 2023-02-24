@@ -36,7 +36,9 @@ to update Page
 ng add @angular/material
 
  npm install bootstrap@5.2.3
+ 
 "node_modules/bootstrap/dist/css/bootstrap.css"
+
 "node_modules/bootstrap/dist/js/bootstrap.min.js"
 
 # Material
