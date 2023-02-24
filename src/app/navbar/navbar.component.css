@@ -1,12 +1,15 @@
 .nav-item{
   display: flex;
   margin-right: 10px;
+  justify-content: flex-end;
+  margin-top: 10px;
 }
 
 mat-icon{
   color: rgb(218, 165, 243);
   margin-top: auto;
   margin-bottom: auto;
+  margin-right: 10px;
 }
 
 a{
@@ -30,4 +33,10 @@ a::after{
 a:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+
+/*NAV EFFECT*/
+
+.navegation .navbar{
+  box-shadow: 0px .2px 10px rgb(212, 212, 212);
 }
