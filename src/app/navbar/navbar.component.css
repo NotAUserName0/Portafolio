@@ -37,6 +37,39 @@ a:hover::after {
 
 /*NAV EFFECT*/
 
-.navegation .navbar{
+.navegation,.phone .navbar{
   box-shadow: 0px .2px 10px rgb(212, 212, 212);
+}
+
+@media screen and (min-width: 375px) and (max-width: 719px) {
+  .navegation{
+      display: none;
+  }
+
+  .phone{
+      display: block;
+  }
+
+  .nav-link{
+    text-align: center;
+  }
+
+  .nav-item{
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .offcanvas{
+    --bs-offcanvas-width: 200px;
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1440px) {
+  .navegation{
+      display: block;
+  }
+
+  .phone{
+      display: none;
+  }
 }
