@@ -240,8 +240,7 @@ button{
 
 }
 
-/* MINI HORIZONTAL */
-
+/*MID VERTICAL*/
 @media screen and (min-width: 720px) and (max-width: 1079px){
 
   .about{
@@ -328,5 +327,13 @@ button{
 @media screen and (min-width: 1300px) and (max-width: 1440px){
   .about-phone{
     display: none;
+  }
+}
+
+/* MINI HORIZONTAL */
+
+@media screen and (min-width: 800px) and (max-width: 900px) and (orientation: landscape){
+  .about-phone{
+    margin-top: 400px;
   }
 }

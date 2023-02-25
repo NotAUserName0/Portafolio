@@ -94,3 +94,15 @@ small{
   }
 
 }
+
+/* MINI HORIZONTAL */
+
+@media screen and (min-width: 800px) and (max-width: 900px) and (orientation: landscape){
+  .pres1{
+    font-size: 60px;
+  }
+
+  .pres2{
+    font-size: 30px;
+  }
+}
