@@ -332,8 +332,29 @@ button{
 
 /* MINI HORIZONTAL */
 
-@media screen and (min-width: 800px) and (max-width: 900px) and (orientation: landscape){
+@media screen and (min-width: 800px) and (max-width: 1000px) and (orientation: landscape){
   .about-phone{
-    margin-top: 400px;
+    margin-top: 250px;
+    height: auto;
   }
+
+  .landscape{
+    display: flex ;
+  }
+
+  .program{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 75px;
+    grid-row-gap: 5px;
+    margin: 0px 0px 0px 200px;
+    }
+
 }
