@@ -72,3 +72,25 @@ mat-icon{
 small{
   font-size: 30px;
 }
+
+@media screen and (min-width: 375px) and (max-width: 719px) {
+
+  .pres1{
+    font-size: 60px;
+    padding: 10px;
+  }
+
+  .pres2{
+    font-size: 40px;
+    padding: 10px;
+  }
+
+  small{
+    font-size: 15px;
+  }
+
+  .icon{
+    bottom: 160px;
+  }
+
+}
