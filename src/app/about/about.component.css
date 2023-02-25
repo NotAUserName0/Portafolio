@@ -186,6 +186,61 @@ button{
     -webkit-transform: rotateX(360deg);
     -moz-transform: rotateX(360deg);
 }
+
+/* ULTRA MINI */
+@media screen and (min-width: 200px) and (max-width: 374px){
+  .about{
+    display: none;
+  }
+
+  .about-phone{
+    display: block;
+    width: 90%;
+    height: auto;
+    text-align: center;
+    margin-top: 450px;
+  }
+
+  .user{
+    width: 200px;
+    height: 200px;
+  }
+
+  .pres1{
+    font-size: 20px;
+    width: 100%;
+    margin: 5px 0px 5px 0px;
+    font-weight: 600;
+  }
+
+  .pres2{
+    width: 90%;
+    font-size: 15px;
+    font-weight: 200;
+    margin: 10px auto 10px auto;
+    text-align: justify;
+    word-wrap: break-word;
+    height: auto;
+  }
+
+  .program{
+
+    width: 90%;
+    height: auto;
+    margin: 40px auto 20px auto;
+  }
+
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 10px;
+    margin: 0px;
+    }
+}
+
+
 /* MINI VERTICAL */
 @media screen and (min-width: 375px) and (max-width: 719px) {
 

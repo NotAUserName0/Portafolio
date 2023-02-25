@@ -115,3 +115,27 @@ small{
     height: 50px;
   }
 }
+
+/* ULTRA MINI */
+@media screen and (min-width: 200px) and (max-width: 374px){
+  .pres1{
+    font-size: 30px;
+  }
+
+  .pres2{
+    font-size: 20px;
+  }
+
+  small{
+    font-size: 15px;
+  }
+
+  .material-icons{
+    font-size: 80px;
+  }
+
+  mat-icon{
+    width: 80px;
+    height: 80px;
+  }
+}

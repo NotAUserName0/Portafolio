@@ -62,6 +62,12 @@ a:hover::after {
   .offcanvas{
     --bs-offcanvas-width: 200px;
   }
+
+  .offcanvas-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 @media screen and (min-width: 720px) and (max-width: 1440px) {
@@ -72,4 +78,34 @@ a:hover::after {
   .phone{
       display: none;
   }
+}
+
+@media screen and (min-width: 200px) and (max-width: 374px){
+  .navegation{
+    display: none;
+}
+
+.phone{
+    display: block;
+}
+
+.nav-link{
+  text-align: center;
+}
+
+.nav-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.offcanvas{
+  --bs-offcanvas-width: 180px;
+}
+
+.offcanvas-body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 }
