@@ -1,5 +1,5 @@
 <section class="navegation">
-  <nav class="navbar navbar-expand-sm fixed-top bg-white">
+  <nav id="navbar" class="navbar navbar-expand-sm fixed-top bg-white">
     <div class="container-fluid ">
       <a class="navbar-brand" href="#"></a>
       <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -24,6 +24,10 @@
             <mat-icon fontIcon="contact_support"></mat-icon>
             <a class="nav-link" href="#faq">Contact Me</a>
           </li>
+          <li class="nav-item">
+            <mat-icon class="material-icons-outlined">nightlight_round</mat-icon>
+            <a class="nav-link" (click)="dark()">Dark Mode</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -31,7 +35,7 @@
 </section>
 
 <section class="phone">
-  <nav class="navbar bg-white fixed-top">
+  <nav id="navbar-phone" class="navbar bg-white fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -59,6 +63,10 @@
               <li class="nav-item">
                 <mat-icon fontIcon="contact_support"></mat-icon>
                 <a class="nav-link" href="#faq">Contact Me</a>
+              </li>
+              <li class="nav-item">
+                <mat-icon class="material-icons-outlined">nightlight_round</mat-icon>
+                <a class="nav-link" (click)="darkPhone()">Dark Mode</a>
               </li>
             </ul>
           </div>
