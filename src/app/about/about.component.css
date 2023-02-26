@@ -188,7 +188,7 @@ button{
 }
 
 /* ULTRA MINI */
-@media screen and (min-width: 200px) and (max-width: 374px){
+@media screen and (min-width: 320px) and (max-width: 374px){
   .about{
     display: none;
   }
@@ -235,7 +235,7 @@ button{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 15px;
-    grid-row-gap: 10px;
+    grid-row-gap: 16px;
     margin: 0px;
     }
 }
