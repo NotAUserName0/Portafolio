@@ -1,10 +1,18 @@
+.title{
+  font-size: 40px;
+  font-weight: 400;
+}
 .box{
   height: 100vh;
   width: 100%;
+  text-align: center;
+  padding-top: 56px; /* tamaño de navbar */
+}
+
+.main{
   display: flex;
   align-items: center;
   justify-content:flex-start;
-  padding-top: 56px; /* tamaño de navbar */
 }
 
 section{
@@ -27,13 +35,59 @@ section img:hover{
   width: 300px;
 }
 
-.des div{
-  width: 100%;
-  display: flex ;
+.des{
+  display:block;
   align-items: center;
   justify-content: center;
 }
 
-.api-php, .ang-php, .api-go, .ang-go{
-  display: none !important;
+.hide{
+  /*display: none !important;*/
+  visibility:hidden;
+  opacity: 0;
+   height: 0;
+   padding: 0;
+   transition: all .5s ease-out;
+}
+
+.show{
+  /*display: none !important;*/
+  visibility:visible;
+  text-align: center;
+  height: 100%;
+  margin-top: 100px;
+  transition: all .5s ease-in;
+}
+
+.pres1{
+  font-size: 40px;
+  font-weight: 600;
+  margin: 0px 0px 50px 0px; /* up right down left */
+
+}
+
+@media screen and (min-width: 375px) and (max-width: 719px) {
+  .main{
+    display: block;
+  }
+
+  section{
+    margin: 0px auto 0px auto;
+    width: 400px;
+    height: 400px;
+    padding-top: 56px;
+  }
+
+  section img:hover{
+    cursor: default;
+    width: 200px;
+  }
+
+  .des{
+    padding: 0;
+  }
+
+  .show{
+    margin-top: 50px;
+  }
 }

@@ -1,38 +1,42 @@
 <div class="box">
-  <section class="images">
-    <img class="pro1" (mouseenter)="enter(1)" (mouseleave)="exit(1)"> <!-- CRUD PHP API-->
-    <img class="pro2" (mouseenter)="enter(2)" (mouseleave)="exit(2)"> <!-- CRUD ANGULAR/PHP-->
-    <img class="pro3" (mouseenter)="enter(3)" (mouseleave)="exit(3)"> <!-- CRUD GO API-->
-    <img class="pro4" (mouseenter)="enter(4)" (mouseleave)="exit(4)"> <!-- CRUD ANGULAR/GO-->
-  </section>
 
-  <section class="des">
-    <div class="api-php" id="p1">
-      <span>
-        <p>Title 1</p>
-        <p>Description</p>
-      </span>
-    </div>
+  <p class="title">Proyectos</p>
+  <div class="main">
+    <section class="images">
+      <img class="pro1" (mouseenter)="enter(1)" (mouseleave)="exit(1)"> <!-- CRUD PHP API-->
+      <img class="pro2" (mouseenter)="enter(2)" (mouseleave)="exit(2)"> <!-- CRUD ANGULAR/PHP-->
+      <img class="pro3" (mouseenter)="enter(3)" (mouseleave)="exit(3)"> <!-- CRUD GO API-->
+      <img class="pro4" (mouseenter)="enter(4)" (mouseleave)="exit(4)"> <!-- CRUD ANGULAR/GO-->
+    </section>
 
-    <div class="ang-php" id="p2">
-      <span>
-        <p>Title 2</p>
-        <p>Description</p>
-      </span>
-    </div>
+    <section class="des">
+      <div class="hide" id="p1">
+        <span>
+          <p class="pres1">CRUD API PHP</p>
+          <p>Simple crud api using PHP MVC and routes environtment, ready for an implementation in any lenguaje</p>
+        </span>
+      </div>
 
-    <div class="api-go" id="p3">
-      <span>
-        <p>Title 3</p>
-        <p>Description</p>
-      </span>
-    </div>
+      <div class="hide" id="p2">
+        <span>
+          <p class="pres1">ANGULAR CRUD IMPLEMENTATION</p>
+          <p>This is an implementation for any api with the same entrance(readme.txt) the test werer made on PHP</p>
+        </span>
+      </div>
 
-    <div class="ang-go" id="p4">
-      <span>
-        <p>Title 4</p>
-        <p>Description</p>
-      </span>
-    </div>
-  </section>
+      <div class="hide" id="p3">
+        <span>
+          <p class="pres1">CRUD API GO</p>
+          <p>Simple crud using MUX routing, FIBER framework and GORM for database connection to MySQL</p>
+        </span>
+      </div>
+
+      <div class="hide" id="p4">
+        <span>
+          <p class="pres1">ANGULAR CRUD IMPLEMENTATION 2</p>
+          <p>Another implementation for a crud with other design(readme.txt)</p>
+        </span>
+      </div>
+    </section>
+  </div>
 </div>
