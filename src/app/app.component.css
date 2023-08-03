@@ -109,7 +109,7 @@ nav{
 
 .profile{
   transform: scale(0.6);
-  background-image: url("../assets/proyect/me.jpg");
+  background-image: url("img/me.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
