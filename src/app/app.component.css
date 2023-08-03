@@ -102,13 +102,16 @@ nav{
   padding: 15 px;
 }
 
-.user img{
+.user .profile{
   width: 35%;
   height: 90vh;
 }
 
 .profile{
   transform: scale(0.6);
+  background-image: url("../assets/proyect/me.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .user .who{
